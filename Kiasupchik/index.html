@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/fvicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Kiasupchik</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Kiasu<span>pchik</span>
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link active-link">На главную</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">О нас</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Поддержка</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контанты</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <img src="assets/img/nav-img.png" alt="Nav image" class="nav__img">
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home">
+                <div class="home__shape-small"></div>
+                <div class="home__shape-big"></div>
+                <img src="assets/img/shape-bg.png" alt="" class="home__shape-bg">
+
+                <div class="home__container container">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Здравствуйте !
+                            <span>Светлана Генадьевна</span>
+                            Оценки уже ждут выставления !!!
+                        </h1>
+                        <p class="home__description">
+                            У вас 100 непрочитанных сообщений от 8А класса
+                        </p>
+                        <a href="marks.html" class="home__button">
+                            Продолжить
+                        </a>
+                    </div>
+    
+                    <div class="home__images">
+                        <img src="assets/img/liquid-fruit.png" alt="Liquid image" class="home__liquid">
+                            <img src="assets/img/leaf.png" alt="Leaf image" class="home__leaf">
+                            <img src="assets/img/leaf.png" alt="Leaf image" class="home__leaf">
+                            <img src="assets/img/leaf.png" alt="Leaf image" class="home__leaf">
+                            <img src="assets/img/leaf.png" alt="Leaf image" class="home__leaf">
+                            <img src="assets/img/leaf.png" alt="Leaf image" class="home__leaf">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </main>
+
+        <!--=============== GSAP ===============-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
